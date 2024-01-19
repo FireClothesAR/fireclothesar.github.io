@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    margin-top: 25px;
+}
+@font-face {
+    font-family: Decipher;
+    src: url("Decipher.otf");
+}
+@font-face {
+    font-family: Greatboyz;
+    src: url("Greatboyz.otf");
+}
+@font-face {
+    font-family: Heading;
+    src: url("Heading.ttf");
+}
+.btn{
+  width: 100%;
+  color: black;
+  background-color: #51F90E;
+  border: 0;
+  box-shadow: 0 0 8px solid #51F90E;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: Decipher;
+}
+
+.btn:hover{
+    width: 100%;
+    color: black;
+    background-color: #51F90E;
+    border: 0;
+    box-shadow: 0 0 8px solid #51F90E;
+    transform: scale(1.1);
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+
+  .card{
+    margin:10px;
+    border: 0;
+    border-radius: 0%;
+    box-shadow: 0 0 8px white;
+    text-align: center;
+  }
+
+  h2{
+    color: white;
+    font-family: Decipher;
+  }
+
+
+  .text-right2{
+    color: white;
+  }
+  h6{
+    margin-top: 15px;
+    font-family: Decipher;
+  }
+
+body::-webkit-scrollbar{
+    width: 15px;
+    background-color: black;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: #51F90E;
+  }
+  body::-webkit-scrollbar-thumb:hover{
+    background-color: #51F90E;
+  }
+
+  .btn2{
+    background-color: #51F90E;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .btn2:hover{
+    background-color: #51F90E;
+    color: black;
+    border: 0;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
